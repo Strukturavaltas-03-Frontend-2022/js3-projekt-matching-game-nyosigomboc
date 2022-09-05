@@ -88,8 +88,8 @@ const handleNewGame = () => {
 };
 
 const handleStep = (index) => {
-  if (state.found[index] || !state.clickActive) {
-    return; // already found
+  if (state.found[index] || !state.clickActive || index === state.flipped) {
+    return; // already found, click disabled, or picture already selected
   }
   flipOverOrBack(index, true);
   if (state.flipped === null) { // 1st flip
