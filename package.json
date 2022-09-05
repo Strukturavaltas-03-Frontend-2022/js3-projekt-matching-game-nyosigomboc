@@ -1,0 +1,25 @@
+{
+  "name": "js3-projekt-matching-game-nyosigomboc",
+  "version": "1.0.0",
+  "description": "- Egy *“Keresd a párját”* játékot kell készítened\r - A játékban két sorban soronként 5, azaz összesen 10 darab kártya látható\r - A játék kezdetekor a kártyák le vannak fordítva. A kártyák másik oldala egy egyszerű ábrát tartalmaz\r - Az ábrák szabadon választható képek vagy akár ikonok is lehetnek a könnyebb felismerhetőség végett\r - Minden ábrából összesen két darab van\r - Amikor a játékos rákattint egy kártyára, az egy egyszerű animáció kíséretében megfordul, felfedve az ábrát\r - Az első kártyára való kattintáskor elindul egy számláló, amely a játékidőt mutatja perc:másodperc formában\r - Amennyiben egymás után két felfordított kártyán ugyanaz az ábra szerepel, azokat felfordítva kell hagyni a játék végéig, többet nem lehet rájuk kattintani\r - Amennyiben a két ábra eltérő, mind a kettőt automatikusan vissza kell forgatni\r - A játéknak akkor van vége, amikor az összes kártya képes oldala látszik\r - A számláló a játék végén megáll\r - 5 másodperc múlva a számláló nullázódik, és az összes kártya visszafordul, kezdődhet egy új játék",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Strukturavaltas-03-Frontend-2022/js3-projekt-matching-game-nyosigomboc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Strukturavaltas-03-Frontend-2022/js3-projekt-matching-game-nyosigomboc/issues"
+  },
+  "homepage": "https://github.com/Strukturavaltas-03-Frontend-2022/js3-projekt-matching-game-nyosigomboc#readme",
+  "devDependencies": {
+    "eslint": "^8.23.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}
